@@ -1,0 +1,145 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+/*************************************
+    GENERAL
+**************************************/
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Cabin", sans-serif;
+}
+
+.content {
+    margin: 0;
+    padding: 0;
+    display: table-row;
+}
+
+.content p {
+    font-size: 1.3em;
+    line-height: 1.4em;
+}
+
+.content h1 {
+    font-size: 3em;
+    padding: 15px 0;
+    margin: 0;
+    color: #F29695;
+}
+
+.korean {
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+.inline {
+    display: inline;
+    padding: 0.15em;
+}
+
+.block {
+    display: block;
+}
+
+.wrapper {
+    width: 70%;
+    overflow: auto;
+    position: relative;
+    top: 0; left: 0; bottom: 0; right: 0;
+    text-align: center;
+    border: 1px solid #7FC7AF;
+    border-radius: 50px;
+    display: table;
+    margin: 15px auto;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+#cake {
+    width: 192px;
+}
+
+/*************************************
+    LINKS
+**************************************/
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: black;
+}
+
+a {
+    color: black;
+}
+
+/*************************************
+    NAVIGATION
+**************************************/
+
+.nav {
+    margin: 0;
+    padding: 0 0 20px 0;
+    border-bottom: 1px solid #7FC7AF;
+}
+
+.nav h1 {
+    margin: 10px 0;
+    padding: 0;
+    font-family: "Lobster", sans-serif;
+    font-size: 2.8em;
+}
+
+.nav p {
+    font-size: 1.3em;
+}
+
+/*************************************
+    COLORS
+**************************************/
+
+.nav h1 {
+    color: #3FB8AF;
+}
+
+.nav a {
+    color: #349992;
+    text-decoration: none;
+}
+
+.nav a:visited {
+    color: #349992;
+}
+
+.nav a:hover {
+    color: #349992;
+}
+
+.content p {
+    color: #F29695;
+}
+
+/*@media screen and (max-device-width: 360px) {
+        .wrapper {
+            width: 70%;
+        }
+
+        .nav {
+            width: auto;
+        }
+
+        .nav h1 {
+            font-size: 140%;
+        }
+
+        .content {
+            float: none;
+            width: 100%;
+            height: auto;
+        }
+    } */
+
+
+
